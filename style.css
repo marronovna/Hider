@@ -1,0 +1,134 @@
+.header {
+background-color: rgb(255, 87, 87);
+height: 70px;
+display: flex;    
+flex-direction: row;
+justify-content: space-between;
+padding: 7px;
+align-items: center;
+}
+
+.buttonLogo  {
+margin: 7px;   
+background-color: rgb(255, 87, 87);    
+border: none;
+}
+
+.box {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.buttonHome {
+color: whitesmoke;
+background-color: rgb(255, 87, 87);
+border: none;
+padding: 7px 15px;
+border-radius: 8px;
+font-size: 16px;
+margin: 7px;
+
+}
+.buttonHome:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 3s;
+
+}
+
+
+.buttonAbout {
+color: whitesmoke;
+background-color: rgb(255, 87, 87);
+border: none;
+padding: 7px 15px;
+border-radius: 8px;
+font-size: 16px;   
+margin: 7px;
+
+}
+.buttonAbout:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 2s;
+
+}
+
+.buttonShop {
+    color: whitesmoke;
+    background-color: rgb(255, 87, 87);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 7px;
+}
+
+.buttonShop:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 2s;
+
+}
+
+.buttonDonate {
+    color: whitesmoke;
+    background-color: rgb(255, 87, 87);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 7px;
+}
+
+.buttonDonate:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 2s;
+
+}
+
+.buttonContact {
+    color: whitesmoke;
+    background-color: rgb(255, 87, 87);
+    border: none;
+    padding: 7px 15px;
+    border-radius: 8px;
+    font-size: 16px;  
+    margin: 7px; 
+}
+.buttonContact:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition-duration: 2s;
+    
+}
+
+.buttonBasket {
+
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    padding: 2px 7px;
+    border-radius: 8px;
+    font-size: 4px;
+    margin: 7px;
+    padding: 3px 15px;      
+
+}
+
+.BasketCircle {
+    display: flex;
+    align-self: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: relative;
+    top: -15px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+}
